@@ -1,0 +1,27 @@
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake_Water_Gun-game</title>
+    <link rel="stylesheet" href="/style.css">
+  </head>
+  <body>
+    <h1>Snake_Water_Gun-Game</h1>
+    <b><p>User vs Bot</p></b>
+    <p>Input: (S = Snake, W = Water, G = Gun)</p>
+  <div class="container">
+    <div class="input-group mb-3">
+      <input type="text" id="userInput" class="form-control" placeholder="Insert S, W, G" aria-label="User's choice" aria-describedby="button-addon2">
+      <button class="btn btn-outline-secondary" type="button" id="button-addon2" onclick="startGame()">Start</button>
+    </div>
+  </div>
+  <br>
+  <br>
+    <p id="result"></p>
+    <h2>Score</h2>
+    <p>User: <span id="userScore">0</span> | Bot: <span id="cpuScore">0</span></p>
+    <p>High Score: <span id="highScore">10</span></p>
+    <script src="/Script.js"></script>
+  </body>
+  </html>
