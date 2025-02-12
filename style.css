@@ -3,7 +3,7 @@ html {
     width: 100%;
   }
   body{
-    background-color: purple
+    background-color: #39b8ac;
   }
   h1,h2{
     color: white;
@@ -21,3 +21,13 @@ html {
     flex-direction: column;
     /* flex-direction: column;  used for displaying item vertical align one after one */
   }
+  ul,li{
+    color: rgb(19, 19, 19);
+    
+  }
+  ul li{
+    align-items: center;
+    justify-content:center;  
+    
+  }
+  
